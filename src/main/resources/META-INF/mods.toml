@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="claimchunkbluemap"
+version="1.20.1-1.1"
+displayName="ClaimChunk BlueMap Bridge"
+authors="Stanlabs"
+description='''
+A mod that displays ClaimChunk regions on the BlueMap web interface with player heads and custom colors.
+'''
+logoFile="logo.png"
+
+[[dependencies.claimchunkbluemap]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
